@@ -1,0 +1,23 @@
+{
+  "version": "1.1",
+  "name": "Fire Ball",
+  "description": "DX-Ball type game.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/image/icon-16.png",
+    "32": "/image/icon-32.png",
+    "48": "/image/icon-48.png",
+    "60": "/image/icon-60.png",
+    "90": "/image/icon-90.png",
+    "120": "/image/icon-120.png",
+    "128": "/image/icon-128.png",
+    "256": "/image/icon-256.png"
+  },
+  "developer": {
+    "name": "Aftabul Islam",
+    "url": "https://plus.google.com/u/0/100279271116463259502"
+  },
+  "fullscreen": "true",
+  "orientation": ["portrait"],
+  "default_locale": "en"
+}

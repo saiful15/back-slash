@@ -1,0 +1,117 @@
+<!Doctype html>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		
+		<title>Fire Ball</title>
+		
+		<!-- <link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.external-png-1.4.5.min.css" />
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.icons-1.4.5.min.css" />
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.inline-png-1.4.5.min.css" />
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.inline-svg-1.4.5.min.css" />
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile.theme-1.4.5.min.css" /> -->
+		<link rel="stylesheet" href="lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+		
+		<link rel="stylesheet" href="app/css/app.css" />
+		
+		<script src="lib/jquery-2.1.1.min.js" ></script>
+		<script src="lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js" ></script>
+		
+		<script src="app/js/app.js" ></script>
+	
+	</head>
+
+	<body>
+		
+		
+		
+		
+		
+		<div data-role="page" data-theme="b">
+			
+			<div data-role="header" >
+				<a href="#additionals" data-rel="panel" data-icon="action">Extras</a> 
+				<h1 >Fire Ball</h1>
+			</div><!-- /header -->
+			
+			<div data-role="panel" data-display="overlay" id="additionals">
+				<a href="#credits" class="ui-btn ui-icon-user ui-btn-icon-left">Credits</a>
+				<a href="#" class="ui-btn ui-icon-navigation ui-btn-icon-left">Instructions</a>
+				<a href="#" class="ui-btn ui-icon-info ui-btn-icon-left">About</a>
+				<a href="#" class="ui-btn ui-icon-comment ui-btn-icon-left">Lisence</a>
+			</div>
+			
+			<div data-role="panel" data-display="overlay" id="settings-panel">
+				
+				<label for="sounds-on">Sounds On</label>
+				<input type="checkbox" name="sound" id="sounds-on" value="on">
+				
+			</div>
+			
+			<div data-role="panel" data-theme="a" data-display="overlay" id="social">
+				
+				
+				
+			</div>
+			
+			<div data-role="content">
+				
+				<!-- Place this tag in your head or just before your close body tag. -->
+				
+				<a href="#" class="ui-btn ui-icon-check ui-btn-icon-left">Continue</a>
+				<a href="#" class="ui-btn ui-icon-refresh ui-btn-icon-left">New Game</a>
+				<a href="#high-scores" data-rel="page" class="ui-btn ui-icon-star ui-btn-icon-left">High Socres</a>
+				<a href="#settings-panel" data-rel="panel" class="ui-btn ui-icon-gear ui-btn-icon-left">Settings</a>
+				
+				
+				
+			</div><!-- /content -->
+			
+			<!--<div data-role="footer">
+			</div> -->
+		
+		</div><!-- /page -->
+		
+		<div data-theme="b" data-role="page" id="credits">
+			
+			<div data-role="header">
+				<h3>Aftabul Islam</h3>
+			</div>
+			
+			<div data-role="panel" data-display="overlay" id="contacts-panel">
+				<a href="#credits" class="ui-btn ui-icon-mail ui-btn-icon-left">Email</a>
+				<a href="#" class="ui-btn ui-icon-navigation ui-btn-icon-left">G Plus</a>
+				<a href="#" class="ui-btn ui-icon-info ui-btn-icon-left">Twitter</a>
+				<a href="#" class="ui-btn ui-icon-comment ui-btn-icon-left">Linked In</a>
+				<a href="#" class="ui-btn ui-icon-comment ui-btn-icon-left">Facebook</a>
+			</div>
+			
+			<div data-role="content">
+				
+				<div class="ui-grid-a">
+				
+					<div class="ui-block-a">
+						<img src="app/image/myshelf.jpg" style="width:160px;height:160px;border-radius:0px 40px 0px 40px;border:5px solid gray;" />
+					</div>
+					
+					
+					<div class="ui-block-b">
+						<i>I don't bite. Seriously, I don't bite.</i>
+						<br/>
+						<a href="#contacts-panel" data-rel="panel" class="ui-btn ui-icon-gear ui-btn-icon-left">Contacts</a>
+						
+					</div>
+				
+				</div>
+				
+			</div>
+			
+		</div>
+	
+	</body>
+
+</html>
